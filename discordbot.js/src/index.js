@@ -70,6 +70,10 @@ client.on('messageCreate', (message) => {
         message.reply('oh my god do you mean the cool and hip todd howard/s')
     }
 
+    if (message.content === 'commands') {
+        message.reply('i have a few! i have, "hey", "kys", "hotwheels unleashed", "gup", "Tekkai", ":3" and "i hate you", more are going to be added soon! (dont be afraid to reccomend! :3 please do not use slash commands as of yet, they are bugged')
+    }
+
 });
 
 client.on('interactionCreate', (interaction) => {
